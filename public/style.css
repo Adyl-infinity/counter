@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background-image: linear-gradient(to top, #5bfff9, #0bffe5, #00fec9, #00fba6, #00f77c, #4af668, #6af553, #84f33c, #a9f64b, #c7f95c, #e0fc6f, #f6ff83);
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+.date {
+    font-size: 35px;
+    font-weight: bold;
+    color: #800002;
+}
+.info{
+    color: #400080;
+}
+.decor {
+    color: #800080;
+}
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
+}
+
