@@ -12,7 +12,7 @@ html, body {
 
 body {
     align-items: center;
-    background-image: linear-gradient(to top, #5bfff9, #0bffe5, #00fec9, #00fba6, #00f77c, #4af668, #6af553, #84f33c, #a9f64b, #c7f95c, #e0fc6f, #f6ff83);
+    background-image: linear-gradient(to top, #5bfff9, #0bffe5, #00fec9, #00fba6, #00f77c, #4af669, #6af553, #84f33c, #a9f64b, #c7f95c, #e0fc6f, #f6ff83);
     display: flex;
     font-family: 'Nunito Sans', sans-serif;
 }
